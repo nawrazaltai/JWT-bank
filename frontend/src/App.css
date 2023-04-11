@@ -432,7 +432,7 @@ input::placeholder {
 
 .piggybank {
   width: 15em;
-  position: fixed;
-  bottom: 5.5em;
+  position: absolute;
+  bottom: 0em;
   right: 2em;
 }
