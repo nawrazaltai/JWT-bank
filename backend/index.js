@@ -13,8 +13,8 @@ dotenv.config();
 
 const connection = mysql.createConnection({
   host: "localhost",
-  user: "ninja",
-  password: "123456",
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS,
   database: "bankjwt",
 });
 

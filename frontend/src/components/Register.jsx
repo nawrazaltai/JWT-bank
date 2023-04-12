@@ -78,7 +78,7 @@ function Register() {
               onChange={(e) => {
                 setPassword(e.target.value);
               }}
-              type="text"
+              type="password"
               id="password"
               placeholder="Enter your password here"
               value={password}
